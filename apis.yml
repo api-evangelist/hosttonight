@@ -1,4 +1,16 @@
 aid: hosttonight
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hosttonight.png
 name: HostTonight
 description: HostTonight is a company surfaced as a portfolio company of 500-global and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -9,9 +21,12 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: parked-domain
+x-status-note: hosttonight.com resolves to a GoDaddy/wsimg parking lander (all paths soft-200
+  redirect to /lander); no product, API, docs, well-known, or MX records exist as of 2026-07-20.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 apis: []
@@ -23,3 +38,8 @@ maintainers:
 common:
 - type: Website
   url: https://hosttonight.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
