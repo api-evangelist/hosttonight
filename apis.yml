@@ -24,7 +24,7 @@ x-tier-reason: portfolio-lead
 x-status: parked-domain
 x-status-note: hosttonight.com resolves to a GoDaddy/wsimg parking lander (all paths soft-200
   redirect to /lander); no product, API, docs, well-known, or MX records exist as of 2026-07-20.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
